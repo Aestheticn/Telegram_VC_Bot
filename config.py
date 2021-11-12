@@ -9,7 +9,7 @@ if HEROKU:
     load_dotenv()  # take environment variables from .env.
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]
-    SESSION_STRING = environ[
+    SESSION_STRING = environ[BQB65mjManqPsAoA6GroTTyGj8S8LH1b9p-bbd6Fra85bqE9vYQGkFcLmsgCnRdgYzw9cjkf6amuGS3VSgqgrJJg0p_JGweCtCpTdWsKGE1t7T6h85ytDR_o7HVy8YJnhpRWIKzqaEzO97edeK5mFdnedQuL9uxoStkgQ2i0QSx95h626ZGyhpeL5o_hGRz0VlMG6RIV3Ohj591C139-uxbvjZmVeLkA7aI_x4QFNVqGx2YdX3Tk91pLyUrTE8-9DCSc5rjq4TOOix3mNQT67G8oi5-RA5v9e52GJ43FbCe6E2XY6Z_pe-asvyb3nABzQeTOFceTmEprrEWaioU2e284eif_HgA
         "SESSION_STRING"
     ]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
